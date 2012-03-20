@@ -12,12 +12,21 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int sample_0=0x7f020001;
+        public static final int sample_1=0x7f020002;
+        public static final int sample_2=0x7f020003;
+        public static final int sample_3=0x7f020004;
+        public static final int sample_4=0x7f020005;
+        public static final int sample_5=0x7f020006;
+        public static final int sample_6=0x7f020007;
+        public static final int sample_7=0x7f020008;
     }
     public static final class id {
         public static final int button1=0x7f050001;
         public static final int button2=0x7f050002;
         public static final int button3=0x7f050003;
         public static final int button4=0x7f050004;
+        public static final int gallery=0x7f050005;
         public static final int linearLayout1=0x7f050000;
     }
     public static final class layout {
@@ -40,4 +49,25 @@ public final class R {
         public static final int photosPage=0x7f040008;
         public static final int timerButton=0x7f040006;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a HelloGallery.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #HelloGallery_android_galleryItemBackground cs.app.photo:android_galleryItemBackground}</code></td><td></td></tr>
+           </table>
+           @see #HelloGallery_android_galleryItemBackground
+         */
+        public static final int[] HelloGallery = {
+            0x0101004c
+        };
+        /**
+          <p>This symbol is the offset where the {@link cs.app.photo.R.attr#android_galleryItemBackground}
+          attribute's value can be found in the {@link #HelloGallery} array.
+          @attr name android:android_galleryItemBackground
+        */
+        public static final int HelloGallery_android_galleryItemBackground = 0;
+    };
 }
