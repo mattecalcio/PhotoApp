@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PhotoHome!</string>
+    <string name="app_name">PhotoAssistant</string>
+    <string name="menu">Menu</string>
+    <string name="contractsButton">Contracts</string>
+    <string name="photosButton">Photos</string>
+    <string name="gridButton">Lighting Grid</string>
+    <string name="timerButton">Timer</string>
+    
+    <!-- Names for the different pages -->
+    <string name="contractsPage">Contracts</string>
+    <string name="photosPage">Photos</string>
+    <string name="gridPage">Lighting Grid</string>
+
+</resources>

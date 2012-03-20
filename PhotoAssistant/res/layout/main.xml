@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu" android:textSize="60sp" android:textStyle="bold" android:gravity="top|left"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contractsButton" android:paddingLeft="60sp" android:paddingRight="60sp" android:textSize="60sp" android:onClick="onContractsClick"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photosButton" android:paddingLeft="95sp" android:paddingRight="95sp" android:textSize="60sp" android:onClick="onPhotosClick"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gridButton" android:paddingLeft="17sp" android:paddingRight="17sp" android:textSize="60sp" android:onClick="onGridClick"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timerButton" android:paddingLeft="110sp" android:paddingRight="110sp" android:textSize="60sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
