@@ -18,22 +18,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
         <activity
             android:name=".Contracts"
             android:label="@string/contractsPage" >
         </activity>
-        
         <activity
             android:name=".Photos"
             android:label="@string/photosPage" >
-        </activity> 
-        
+        </activity>
         <activity
             android:name=".Grid"
             android:label="@string/gridPage" >
         </activity>
-        
+        <activity
+            android:name=".PhotosSelected"
+            android:label="@string/photosSelectedPage" >
+        </activity>
     </application>
 
 </manifest>

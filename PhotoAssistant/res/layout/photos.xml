@@ -22,30 +22,65 @@
 
     <ImageView
         android:id="@+id/ImagePreview"
-        android:layout_width="604dp"
+        android:layout_width="639dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_weight="1"
+        android:layout_weight="2.13"
         android:paddingTop="10sp"
         android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="1021dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:gravity="bottom|right" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Selected: 0"
+            android:textColor= "#00ff00"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:gravity="right"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|right"
+            android:onClick="onNextClick"
+            android:text="@string/photosViewAllSelected" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="bottom|center" >
+        android:gravity="bottom|center" android:dividerPadding="100sp">
 
         <Button
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/photosButtonSelect" android:onClick="onSelectClick"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/photosClearButton" android:onClick="onClearClick"/>
+
     </LinearLayout>
 
 </LinearLayout>
