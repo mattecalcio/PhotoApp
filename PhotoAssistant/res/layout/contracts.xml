@@ -9,4 +9,12 @@
         android:layout_height="wrap_content"
         android:text="@string/contractsPage" android:textSize="60sp" android:textStyle="bold" android:gravity="top|left"/>
 
+    <ListView
+        android:id="@+id/contractsList"
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:clickable="true" android:paddingTop="40sp">
+
+    </ListView>
+
 </LinearLayout>

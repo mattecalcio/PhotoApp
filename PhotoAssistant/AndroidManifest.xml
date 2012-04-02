@@ -34,6 +34,13 @@
             android:name=".PhotosSelected"
             android:label="@string/photosSelectedPage" >
         </activity>
+          <activity
+            android:name=".ContractInfoInput"
+            android:label="@string/contractInfoInputPage" >
+        </activity>
+        <activity
+            android:name=".ContractView">
+        </activity>
     </application>
 
 </manifest>

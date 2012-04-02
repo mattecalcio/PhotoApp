@@ -23,5 +23,11 @@
     <string name="photosPage">Photos</string>
     <string name="gridPage">Lighting Grid</string>
     <string name="photosSelectedPage">Photos Selected</string>
+    <string name="contractInfoInputPage">Model Information</string>
+    <string name="fullNameInput">First Last Name</string>
+    <string name="dateInput">Date</string>
+    <string name="emailInput">Email</string>
+    <string name="nextToContract">Next</string>
+    <string name="signButton">Sign</string>
 
 </resources>

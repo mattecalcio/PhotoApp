@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" android:text="@string/contractInfoInputPage" android:textSize="60sp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingTop="40sp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fullNameInput"
+            android:textSize="25sp" android:width="310sp"/>
+
+        <EditText
+            android:id="@+id/firstLastName"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName">
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingTop="10sp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dateInput" android:textSize="25sp" android:width="310sp"/>
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_height="wrap_content"
+            android:inputType="date" android:layout_width="350sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingTop="10sp" android:paddingBottom="150sp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emailInput" android:textSize="25sp" android:width="310sp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nextToContract" android:layout_gravity="bottom|center" android:paddingTop="15sp" android:paddingBottom="15sp" android:paddingRight="35sp" android:paddingLeft="35sp" android:textSize="30sp" android:onClick="onNextContractClick"/>
+
+</LinearLayout>
