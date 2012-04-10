@@ -8,14 +8,13 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/ScrollView1"
         android:layout_width="match_parent"
-        android:layout_height="350dp" >
+        android:layout_height="380dp" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/contractView"
             android:layout_width="match_parent"
             android:layout_height="335dp"
-            android:text="TextViewwwwwwwwwwwwwwwwwwwwwwwwwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
-            android:textSize="50sp" />
+            android:textSize="25sp" />
     </ScrollView>
 
     <ImageView
@@ -25,11 +24,24 @@
         android:paddingTop="25sp"
         android:src="@drawable/white_banner" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center"
-        android:text="@string/signButton" android:paddingTop="15sp" android:onClick="onSignClick"/>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onSignClick"
+            android:text="@string/signButton" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sendContractButton" android:onClick="onSendClick"/>
+
+    </LinearLayout>
 
 </LinearLayout>

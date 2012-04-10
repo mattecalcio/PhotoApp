@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" android:background="@drawable/app_bckgrnd">
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/menu" android:textSize="60sp" android:textStyle="bold" android:gravity="top|left"/>
+        android:text="@string/menu" android:textSize="60sp" android:textStyle="bold" android:gravity="top|left" android:textColor="#000000"/>
 
     <LinearLayout
         android:id="@+id/linearLayout1"

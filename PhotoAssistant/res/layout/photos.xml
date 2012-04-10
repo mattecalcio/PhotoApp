@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:gravity="left"
             android:text="Selected: 0"
-            android:textColor= "#00ff00"
+            android:textColor="#00ff00"
             android:textSize="25sp" />
 
         <TextView
@@ -67,20 +67,22 @@
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="bottom|center" android:dividerPadding="100sp">
+        android:dividerPadding="100sp"
+        android:gravity="bottom|center" >
 
         <Button
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/photosButtonSelect" android:onClick="onSelectClick"/>
+            android:onClick="onSelectClick"
+            android:text="@string/photosButtonSelect" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/photosClearButton" android:onClick="onClearClick"/>
-
+            android:onClick="onClearClick"
+            android:text="@string/photosClearButton" />
     </LinearLayout>
 
 </LinearLayout>

@@ -13,7 +13,7 @@
         android:id="@+id/contractsList"
         android:layout_width="match_parent"
         android:layout_height="263dp"
-        android:clickable="true" android:paddingTop="40sp">
+        android:clickable="true" android:layout_marginTop="40sp">
 
     </ListView>
 

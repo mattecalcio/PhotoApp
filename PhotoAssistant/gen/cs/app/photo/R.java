@@ -11,38 +11,49 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int icon_app_2=0x7f020001;
-        public static final int model_release=0x7f020002;
-        public static final int sample_0=0x7f020003;
-        public static final int sample_1=0x7f020004;
-        public static final int sample_2=0x7f020005;
-        public static final int sample_3=0x7f020006;
-        public static final int sample_4=0x7f020007;
-        public static final int sample_5=0x7f020008;
-        public static final int sample_6=0x7f020009;
-        public static final int sample_7=0x7f02000a;
-        public static final int white_banner=0x7f02000b;
-        public static final int white_banner_sig=0x7f02000c;
+        public static final int app_bckgrnd=0x7f020000;
+        public static final int grid_pic=0x7f020001;
+        public static final int grid_pic2=0x7f020002;
+        public static final int grid_pic3=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int icon_app_2=0x7f020005;
+        public static final int model_release=0x7f020006;
+        public static final int sample_0=0x7f020007;
+        public static final int sample_1=0x7f020008;
+        public static final int sample_2=0x7f020009;
+        public static final int sample_3=0x7f02000a;
+        public static final int sample_4=0x7f02000b;
+        public static final int sample_5=0x7f02000c;
+        public static final int sample_6=0x7f02000d;
+        public static final int sample_7=0x7f02000e;
+        public static final int white_banner=0x7f02000f;
+        public static final int white_banner_sig=0x7f020010;
     }
     public static final class id {
-        public static final int ImagePreview=0x7f050012;
+        public static final int ImagePreview=0x7f050019;
         public static final int ScrollView1=0x7f05000b;
+        public static final int View01=0x7f050011;
         public static final int button1=0x7f05000a;
-        public static final int button2=0x7f05000e;
-        public static final int button3=0x7f05000f;
-        public static final int button4=0x7f050010;
-        public static final int contractsList=0x7f05000d;
+        public static final int button2=0x7f050015;
+        public static final int button3=0x7f050016;
+        public static final int button4=0x7f050017;
+        public static final int contractView=0x7f05000c;
+        public static final int contractsList=0x7f05000f;
         public static final int date=0x7f050006;
         public static final int email=0x7f050009;
         public static final int firstLastName=0x7f050003;
-        public static final int gallery=0x7f050011;
-        public static final int imageView1=0x7f05000c;
+        public static final int gallery=0x7f050018;
+        public static final int gridBlock=0x7f050014;
+        public static final int gridList=0x7f050010;
+        public static final int imageView1=0x7f05000d;
         public static final int linearLayout1=0x7f050001;
         public static final int linearLayout2=0x7f050004;
         public static final int linearLayout3=0x7f050007;
+        public static final int newGridName=0x7f050013;
+        public static final int sendButton=0x7f05000e;
         public static final int textView1=0x7f050000;
         public static final int textView2=0x7f050002;
+        public static final int textView22=0x7f050012;
         public static final int textView3=0x7f050005;
         public static final int textView4=0x7f050008;
     }
@@ -51,9 +62,10 @@ public final class R {
         public static final int contract_view=0x7f030001;
         public static final int contracts=0x7f030002;
         public static final int grid=0x7f030003;
-        public static final int main=0x7f030004;
-        public static final int photos=0x7f030005;
-        public static final int photos_selected=0x7f030006;
+        public static final int grid_page=0x7f030004;
+        public static final int main=0x7f030005;
+        public static final int photos=0x7f030006;
+        public static final int photos_selected=0x7f030007;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
@@ -65,15 +77,21 @@ public final class R {
         /**  Names for the different pages 
          */
         public static final int contractsPage=0x7f04000a;
+        public static final int createGridButton=0x7f040015;
+        public static final int createGridInstructions=0x7f040017;
         public static final int dateInput=0x7f040010;
+        public static final int doneGridButton=0x7f04001a;
         public static final int emailInput=0x7f040011;
+        public static final int existingGridButton=0x7f040016;
         public static final int fullNameInput=0x7f04000f;
         public static final int gridButton=0x7f040005;
+        public static final int gridListTitle=0x7f040019;
         public static final int gridPage=0x7f04000c;
         /**  Menu 
          */
         public static final int hello=0x7f040000;
         public static final int menu=0x7f040002;
+        public static final int nameOfGrid=0x7f040018;
         public static final int nextToContract=0x7f040012;
         public static final int photosButton=0x7f040004;
         /**  Buttons in Photos Page 
@@ -83,6 +101,7 @@ public final class R {
         public static final int photosPage=0x7f04000b;
         public static final int photosSelectedPage=0x7f04000d;
         public static final int photosViewAllSelected=0x7f040009;
+        public static final int sendContractButton=0x7f040014;
         public static final int signButton=0x7f040013;
         public static final int timerButton=0x7f040006;
     }

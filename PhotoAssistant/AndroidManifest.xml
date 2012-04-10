@@ -8,7 +8,8 @@
 
     <application
         android:icon="@drawable/icon_app_2"
-        android:label="@string/app_name" >
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.Black">
         <activity
             android:name=".PhotoHome"
             android:label="@string/app_name" >
@@ -40,6 +41,9 @@
         </activity>
         <activity
             android:name=".ContractView">
+        </activity>
+        <activity
+            android:name=".GridPage">
         </activity>
     </application>
 

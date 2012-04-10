@@ -21,7 +21,7 @@
     <!-- Names for the different pages -->
     <string name="contractsPage">Contracts</string>
     <string name="photosPage">Photos</string>
-    <string name="gridPage">Lighting Grid</string>
+    <string name="gridPage">Lighting Grids</string>
     <string name="photosSelectedPage">Photos Selected</string>
     <string name="contractInfoInputPage">Model Information</string>
     <string name="fullNameInput">First Last Name</string>
@@ -29,5 +29,12 @@
     <string name="emailInput">Email</string>
     <string name="nextToContract">Next</string>
     <string name="signButton">Sign</string>
+    <string name="sendContractButton">Send</string>
+    <string name="createGridButton">Create New</string>
+    <string name="existingGridButton">Existing</string>
+    <string name="createGridInstructions">"Create a new grid "</string>
+    <string name="nameOfGrid">Name</string>
+    <string name="gridListTitle">Existing grids</string>
+    <string name="doneGridButton">Done</string>
 
 </resources>
