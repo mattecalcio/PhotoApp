@@ -2,19 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical">
+    android:orientation="vertical" android:background="@drawable/contracts_main_bck">
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/contractsPage" android:textSize="60sp" android:textStyle="bold" android:gravity="top|left"/>
+        android:text="@string/contractsPage" android:textSize="60sp" android:textStyle="bold" android:gravity="top|left" android:textColor="#000000"/>
 
     <ListView
         android:id="@+id/contractsList"
-        android:layout_width="match_parent"
-        android:layout_height="263dp"
-        android:clickable="true" android:layout_marginTop="40sp">
-
+        android:layout_width="530sp"
+        android:layout_height="300dp"
+        android:layout_marginTop="40sp"
+        android:background="#000000"
+        android:clickable="true">
     </ListView>
 
 </LinearLayout>

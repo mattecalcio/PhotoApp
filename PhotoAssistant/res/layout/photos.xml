@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" android:background="@drawable/app_basic_back">
 
     <TextView
         android:layout_width="fill_parent"
@@ -10,7 +10,7 @@
         android:gravity="top|left"
         android:text="@string/photosPage"
         android:textSize="60sp"
-        android:textStyle="bold" />
+        android:textStyle="bold" android:textColor="#000000"/>
 
     <Gallery
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -43,7 +43,7 @@
             android:gravity="left"
             android:text="Selected: 0"
             android:textColor="#00ff00"
-            android:textSize="25sp" />
+            android:textSize="25sp" android:background="#000000"/>
 
         <TextView
             android:id="@+id/textView1"

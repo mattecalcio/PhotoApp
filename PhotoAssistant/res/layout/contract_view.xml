@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/ScrollView1"
         android:layout_width="match_parent"
-        android:layout_height="380dp" >
+        android:layout_height="380dp" android:background="#000000">
 
         <TextView
             android:id="@+id/contractView"
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="25sp"
-        android:src="@drawable/white_banner" />
+        android:src="@drawable/white_banner"/>
 
     <LinearLayout
         android:id="@+id/linearLayout1"

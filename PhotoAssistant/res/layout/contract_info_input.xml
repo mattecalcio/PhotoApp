@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" android:background="@drawable/contracts_info_bck">
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold" android:text="@string/contractInfoInputPage" android:textSize="60sp"/>
+        android:textStyle="bold" android:text="@string/contractInfoInputPage" android:textSize="60sp" android:textColor="#000000"/>
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fullNameInput"
-            android:textSize="25sp" android:width="310sp"/>
+            android:textSize="25sp" android:width="310sp" android:textColor="#000000"/>
 
         <EditText
             android:id="@+id/firstLastName"
@@ -41,7 +41,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/dateInput" android:textSize="25sp" android:width="310sp"/>
+            android:text="@string/dateInput" android:textSize="25sp" android:width="310sp" android:textColor="#000000"/>
 
         <EditText
             android:id="@+id/date"
@@ -59,7 +59,7 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emailInput" android:textSize="25sp" android:width="310sp"/>
+            android:text="@string/emailInput" android:textSize="25sp" android:width="310sp" android:textColor="#000000"/>
 
         <EditText
             android:id="@+id/email"

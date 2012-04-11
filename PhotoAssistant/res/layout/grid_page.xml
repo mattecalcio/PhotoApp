@@ -11,11 +11,26 @@
         android:layout_gravity="center"
         android:src="@drawable/grid_pic3" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/doneGridButton" android:layout_gravity="center" android:layout_marginTop="15sp" android:onClick="onDoneClick"/>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" android:layout_marginTop="15sp" android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:onClick="onDoneClick"
+            android:text="@string/doneGridButton" android:layout_gravity="center" android:layout_marginLeft="75sp"/>
+
+    </LinearLayout>
 
     
 </LinearLayout>

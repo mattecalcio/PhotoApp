@@ -47,17 +47,17 @@ public class ContractInfoInput extends Activity {
 			if(fullName.getText().toString().isEmpty()){
 				warnFullName.setTextColor(Color.RED);
 			}else{
-				warnFullName.setTextColor(Color.WHITE);
+				warnFullName.setTextColor(Color.BLACK);
 			}
 			if(date.getText().toString().isEmpty()){
 				warnDate.setTextColor(Color.RED);
 			}else{
-				warnDate.setTextColor(Color.WHITE);
+				warnDate.setTextColor(Color.BLACK);
 			}
 			if(email.getText().toString().isEmpty()){
 				warnEmail.setTextColor(Color.RED);
 			}else{
-				warnEmail.setTextColor(Color.WHITE);
+				warnEmail.setTextColor(Color.BLACK);
 			}
 		}else{
 			Intent contractView = new Intent();

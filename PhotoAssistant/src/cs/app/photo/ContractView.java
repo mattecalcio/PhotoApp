@@ -32,7 +32,7 @@ public class ContractView extends Activity {
 		String date = bundle.getString("date");
 		String email = bundle.getString("email");
 
-		String contract = "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tModel Release\n\n" +
+		String contract = "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tModel Release\n\n" +
 				"In consideration of my engagement as a model, upon the terms herewith stated, I hereby give to _____________________________ [photographer] his/her heirs, legal representatives and assigns, those for whom the photographer is acting, and those acting with his/her authority and permission:\n"+
 				"\na)  the unrestricted right and permission to copyright and use, re-use, publish, and republish photographic portraits or pictures of me or in which I may be included intact or in part, composite or distorted in character or form, without restriction as to changes or transformations in conjunction with my own or a fictitious name, or reproduction hereof in color or otherwise, made through any and all media now or hereafter known for illustration, art, promotion, advertising, trade, or any other purpose whatsoever.\n"+
 				"\nb)  I also permit the use of any printed material in connection therewith.\n"+
@@ -60,7 +60,7 @@ public class ContractView extends Activity {
 	
 	public void onSendClick(View button){
 		Intent reset = new Intent();
-		//reset.setClass(this,PhotoHome.class);
+		reset.setClass(this,PhotoHome.class);
 
 	    reset.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 	    

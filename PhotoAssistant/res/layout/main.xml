@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" android:background="@drawable/app_bckgrnd">
+    android:orientation="vertical" android:background="@drawable/app_bck1">
 
     <TextView
         android:layout_width="fill_parent"
@@ -13,7 +13,7 @@
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" android:gravity="center">
+        android:orientation="vertical" android:gravity="center" android:layout_marginTop="40sp">
 
         <Button
             android:id="@+id/button1"

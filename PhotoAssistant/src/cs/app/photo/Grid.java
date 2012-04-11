@@ -76,7 +76,7 @@ public class Grid extends Activity {
 		}else{
 			values.add(gridName.getText().toString());
 			adapter.notifyDataSetChanged();
-			name.setTextColor(Color.WHITE);
+			name.setTextColor(Color.BLACK);
 			gridName.setText("");
 			listView.setSelection(adapter.getCount()-1);
 			
