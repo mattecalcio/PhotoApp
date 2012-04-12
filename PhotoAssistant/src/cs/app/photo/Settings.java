@@ -35,6 +35,7 @@ public class Settings extends Activity {
 		EditText fullName = (EditText)findViewById(R.id.fullName);
 		EditText email = (EditText) findViewById(R.id.emailInput2);
 		
+		
 		if(!fullName.getText().toString().isEmpty()){
 			TextView setText = (TextView)findViewById(R.id.currentDisplay);
 			setText.setText(fullName.getText().toString());

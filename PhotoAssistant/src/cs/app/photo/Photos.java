@@ -62,6 +62,8 @@ public class Photos extends Activity {
 	}
 
 	public void onSelectClick(View button){
+		TextView warnText2 = (TextView)findViewById(R.id.textView1);
+		warnText2.setText("");
 		//if the app just started and the user tries to select nothing do nothing 
 		if(imagePos != -1){
 			//Add the picture only if it hasn't been added yet

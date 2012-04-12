@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" android:background="@drawable/app_basic_back">
+    android:orientation="vertical" android:background="@drawable/settings_bck">
 
     <TextView
         android:id="@+id/settingsText"
@@ -95,7 +95,7 @@
                 android:id="@+id/current"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="First Last Name:"
+                android:text="Full Name"
                 android:textColor="#000000"
                 android:textSize="25sp" android:width="310sp"/>
 

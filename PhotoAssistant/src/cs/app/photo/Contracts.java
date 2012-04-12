@@ -22,7 +22,7 @@ public class Contracts extends Activity {
 		ListView listView = (ListView) findViewById(R.id.contractsList);
 		String[] values = new String[] { 
 				"Professional Models", 
-				"Amature Models", 
+				"Amateur Models", 
 				"Minors",
 				"Basic Form 1", 
 				"Basic Form 2", 
