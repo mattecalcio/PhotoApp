@@ -12,7 +12,8 @@
     <string name="contractsButton">Contracts</string>
     <string name="photosButton">Photos</string>
     <string name="gridButton">Lighting Grid</string>
-    <string name="timerButton">Timer</string>
+    <string name="settingsButton">Settings</string>
+    
     <!-- Buttons in Photos Page -->
     <string name="photosButtonSelect">Select</string>
     <string name="photosClearButton">Clear</string>
@@ -24,7 +25,7 @@
     <string name="gridPage">Lighting Grids</string>
     <string name="photosSelectedPage">Photos Selected</string>
     <string name="contractInfoInputPage">Model Information</string>
-    <string name="fullNameInput">First Last Name</string>
+    <string name="fullNameInput">Full Name</string>
     <string name="dateInput">Date</string>
     <string name="emailInput">Email</string>
     <string name="nextToContract">Next</string>
@@ -36,5 +37,10 @@
     <string name="nameOfGrid">Name</string>
     <string name="gridListTitle">Existing grids</string>
     <string name="doneGridButton">Done</string>
+    <string name="selectContractText">Select the contract for you client</string>
+    <string name="settingsPage">Settings</string>
+    <string name="enterClientInfo">Enter client information</string>
+    <string name="enterPhotographersInfo">Enter photographer\'s information</string>
+    <string name="currentPhotographersInfo">Current photographers information</string>
 
 </resources>

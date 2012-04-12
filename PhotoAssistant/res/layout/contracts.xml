@@ -2,20 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" android:background="@drawable/contracts_main_bck">
+    android:orientation="vertical" android:background="@drawable/contracts_main_bck" android:scrollbarSize="20dp" android:scrollbarStyle="outsideOverlay" android:showDividers="beginning|middle|end">
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/contractsPage" android:textSize="60sp" android:textStyle="bold" android:gravity="top|left" android:textColor="#000000"/>
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/selectContractText" android:textColor="#000000" android:textSize="30sp" android:textStyle="bold|italic" android:layout_marginTop="40sp"/>
+    
     <ListView
         android:id="@+id/contractsList"
         android:layout_width="530sp"
         android:layout_height="300dp"
-        android:layout_marginTop="40sp"
-        android:background="#000000"
-        android:clickable="true">
+        android:layout_marginTop="25sp"
+        android:clickable="true" android:background="#000000" android:divider="@drawable/divider" android:dividerHeight="2sp" android:overScrollMode="always" android:fadeScrollbars="false" android:scrollbarStyle="outsideInset" android:scrollbarSize="20sp" android:scrollbarThumbVertical="@drawable/scroll_bar">
     </ListView>
 
 </LinearLayout>

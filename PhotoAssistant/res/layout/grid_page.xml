@@ -13,22 +13,14 @@
 
     <LinearLayout
         android:id="@+id/linearLayout1"
-        android:layout_width="200sp"
+        android:layout_width="150sp"
         android:layout_height="wrap_content" android:layout_gravity="center">
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save" android:layout_marginTop="15sp" android:layout_gravity="center"/>
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15sp"
-            android:onClick="onDoneClick"
-            android:text="@string/doneGridButton" android:layout_gravity="center" android:layout_marginLeft="75sp"/>
+            android:text="Save" android:layout_gravity="center" android:layout_marginTop="15sp" android:gravity="center" android:layout_marginLeft="45sp"/>
 
     </LinearLayout>
 

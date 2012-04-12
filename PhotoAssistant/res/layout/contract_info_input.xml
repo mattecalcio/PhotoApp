@@ -2,31 +2,47 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" android:background="@drawable/contracts_info_bck">
+    android:background="@drawable/contracts_info_bck"
+    android:orientation="vertical" >
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold" android:text="@string/contractInfoInputPage" android:textSize="60sp" android:textColor="#000000"/>
+        android:text="@string/contractInfoInputPage"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enterClientInfo"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" android:layout_marginTop="40sp"/>
 
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:paddingTop="40sp">
+        android:layout_height="wrap_content"
+        android:paddingTop="40sp" >
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fullNameInput"
-            android:textSize="25sp" android:width="310sp" android:textColor="#000000"/>
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:width="310sp" />
 
         <EditText
             android:id="@+id/firstLastName"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName">
+            android:inputType="textPersonName" >
 
             <requestFocus />
         </EditText>
@@ -35,44 +51,59 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:paddingTop="10sp">
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp" >
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/dateInput" android:textSize="25sp" android:width="310sp" android:textColor="#000000"/>
+            android:text="@string/dateInput"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:width="310sp" />
 
         <EditText
             android:id="@+id/date"
+            android:layout_width="350sp"
             android:layout_height="wrap_content"
-            android:inputType="date" android:layout_width="350sp"/>
-
+            android:inputType="date" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:paddingTop="10sp" android:paddingBottom="150sp">
+        android:layout_height="wrap_content"
+        android:paddingBottom="100sp"
+        android:paddingTop="10sp" >
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emailInput" android:textSize="25sp" android:width="310sp" android:textColor="#000000"/>
+            android:text="@string/emailInput"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:width="310sp" />
 
         <EditText
             android:id="@+id/email"
             android:layout_width="350sp"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"/>
-
+            android:inputType="textEmailAddress" />
     </LinearLayout>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nextToContract" android:layout_gravity="bottom|center" android:paddingTop="15sp" android:paddingBottom="15sp" android:paddingRight="35sp" android:paddingLeft="35sp" android:textSize="30sp" android:onClick="onNextContractClick"/>
+        android:layout_gravity="bottom|center"
+        android:onClick="onNextContractClick"
+        android:paddingBottom="15sp"
+        android:paddingLeft="35sp"
+        android:paddingRight="35sp"
+        android:paddingTop="15sp"
+        android:text="@string/nextToContract"
+        android:textSize="30sp"/>
 
 </LinearLayout>

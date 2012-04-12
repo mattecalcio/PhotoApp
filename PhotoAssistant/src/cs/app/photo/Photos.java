@@ -27,7 +27,9 @@ public class Photos extends Activity {
 			R.drawable.sample_4,
 			R.drawable.sample_5,
 			R.drawable.sample_6,
-			R.drawable.sample_7
+			R.drawable.sample_7,
+			R.drawable.sample_8,
+			R.drawable.sample_9
 	};
 	ArrayList<Integer>selectedPics = new ArrayList<Integer>();
 	ImageView imageView;

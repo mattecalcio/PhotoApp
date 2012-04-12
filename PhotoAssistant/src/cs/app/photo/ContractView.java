@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View;
@@ -44,6 +45,9 @@ public class ContractView extends Activity {
 				"Email: " +email+"\n";
 		TextView contractView = (TextView)findViewById(R.id.contractView);
 		contractView.setText(contract);
+		
+		ScrollView scrollView = (ScrollView)findViewById(R.id.ScrollView1);
+		
 
 	}
 

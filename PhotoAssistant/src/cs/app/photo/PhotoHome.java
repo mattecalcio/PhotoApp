@@ -35,4 +35,11 @@ public class PhotoHome extends Activity {
     	
     	startActivity(gridIntent);
     }
+    
+    public void onSettingsClick(View Button){
+    	Intent gridIntent = new Intent();
+    	gridIntent.setClass(this,Settings.class);
+    	
+    	startActivity(gridIntent);
+    }
 }

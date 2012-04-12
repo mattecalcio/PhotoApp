@@ -8,7 +8,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/ScrollView1"
         android:layout_width="match_parent"
-        android:layout_height="380dp" android:background="#000000">
+        android:layout_height="380dp" android:background="#000000" android:scrollbarThumbVertical="@drawable/scroll_bar" android:fadeScrollbars="false">
 
         <TextView
             android:id="@+id/contractView"

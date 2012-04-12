@@ -39,6 +39,10 @@
             android:name=".ContractInfoInput"
             android:label="@string/contractInfoInputPage" >
         </activity>
+         <activity
+            android:name=".Settings"
+            android:label="@string/settingsPage" >
+        </activity>
         <activity
             android:name=".ContractView">
         </activity>

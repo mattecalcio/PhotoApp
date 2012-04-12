@@ -32,7 +32,7 @@
             android:layout_height="263sp"
             android:layout_marginTop="20sp"
             android:scrollbarAlwaysDrawVerticalTrack="true"
-            android:scrollbarSize="15sp" android:background="#000000">
+            android:scrollbarSize="15sp" android:background="#000000" android:divider="@drawable/divider" android:dividerHeight="2sp" android:fadeScrollbars="false">
         </ListView>
 		
         <!-- added separator -->

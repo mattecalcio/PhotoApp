@@ -58,9 +58,9 @@ public class Grid extends Activity {
 		listView.setOnItemClickListener(new OnItemClickListener() {
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				//Start an activity here that takes you to the contract info
-				if(position == 0){
+				//if(position == 0){
 					startActivity(gridPage);
-				}
+				//}
 			}
 		});
 

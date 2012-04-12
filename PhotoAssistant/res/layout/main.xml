@@ -37,7 +37,7 @@
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/timerButton" android:paddingLeft="110sp" android:paddingRight="110sp" android:textSize="60sp"/>
+            android:text="@string/settingsButton" android:paddingLeft="80sp" android:paddingRight="80sp" android:textSize="60sp" android:onClick="onSettingsClick"/>
 
     </LinearLayout>
 
